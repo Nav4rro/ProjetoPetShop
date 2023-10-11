@@ -1,0 +1,547 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "titulo": "Ração Úmida Purina Dog chow",
+      "descricao": "Saco de ração 20kg",
+      "preco": 100,
+      "categoria": 1,
+      "subCategoria": 1,
+      "tipoDeAnimal": 1,
+      "avaliacaoDoProduto": 4,
+      "tamanho": [
+        {
+          "id": 1,
+          "produto": "Ração",
+          "tamanho": "1,5m"
+        }
+      ],
+      "peso": 20,
+      "estoque": true,
+      "promocao": true,
+      "fabricante": "Purina Friskies",
+      "imagem": [
+        "https://cobasi.vteximg.com.br/arquivos/ids/334395-400-400/carne.jpg?v=637305196229330000",
+        "https://cobasi.vteximg.com.br/arquivos/ids/816269-400-400/racao-umida-para-caes-adultos-de-todos-os-tamanhos-carne-100g_2.jpg?v=637662723693330000"
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "Areia de gato",
+      "descricao": "Areia higiênica para gatos, 5kg",
+      "preco": 15,
+      "categoria": 2,
+      "subCategoria": 2,
+      "tipoDeAnimal": 2,
+      "avaliacaoDoProduto": 4.5,
+      "tamanho": [
+        {
+          "id": 2,
+          "produto": "Areia",
+          "tamanho": "5kg"
+        }
+      ],
+      "peso": 5,
+      "estoque": true,
+      "promocao": false,
+      "fabricante": "My Hug",
+      "imagem": [
+        "https://cobasi.vteximg.com.br/arquivos/ids/1015823-400-400/Cristais-de-Silica.jpg?v=638137877193030000"
+      ]
+      
+    },
+    {
+      "id": 3,
+      "titulo": "Coleira para cachorro",
+      "descricao": "Coleira ajustável para cães de médio porte",
+      "preco": 10,
+      "categoria": 3,
+      "subCategoria": 3,
+      "tipoDeAnimal": 1,
+      "avaliacaoDoProduto": 4.2,
+      "tamanho": [
+        {
+          "id": 3,
+          "produto": "Coleira",
+          "tamanho": "Médio"
+        }
+      ],
+      "peso": 0.2,
+      "estoque": true,
+      "promocao": true,
+      "fabricante": "PetSafe",
+      "imagem": [
+        "https://cobasi.vteximg.com.br/arquivos/ids/1043814-180-180/Coleira-Caes-Puffy-Air-Doco-Rosa.png?v=638149155141770000"
+      ]
+    },
+    {
+      "id": 4,
+      "titulo": "Comedouro para pássaros",
+      "descricao": "Comedouro de plástico para aves",
+      "preco": 5,
+      "categoria": 4,
+      "subCategoria": 4,
+      "tipoDeAnimal": 3,
+      "avaliacaoDoProduto": 3.8,
+      "tamanho": [
+        {
+          "id": 4,
+          "produto": "Comedouro",
+          "tamanho": "Pequeno"
+        }
+      ],
+      "peso": 0.1,
+      "estoque": true,
+      "promocao": false,
+      "fabricante": "Aviary Essentials",
+      "imagem": [
+        "https://cobasi.vteximg.com.br/arquivos/ids/1051308-180-180/Comedouro-Suporte-Kakatoo-N3.png?v=638326266992270000"
+      ]
+    },
+    {
+      "id": 5,
+      "titulo": "Shampoo para cachorro",
+      "descricao": "Shampoo suave para cães, 500ml",
+      "preco": 8,
+      "categoria": 5,
+      "subCategoria": 5,
+      "tipoDeAnimal": 1,
+      "avaliacaoDoProduto": 4.6,
+      "tamanho": [
+        {
+          "id": 5,
+          "produto": "Shampoo",
+          "tamanho": "500ml"
+        }
+      ],
+      "peso": 0.5,
+      "estoque": true,
+      "promocao": true,
+      "fabricante": "My Hug",
+      "imagem": [
+        "https://cobasi.vteximg.com.br/arquivos/ids/916460-180-180/shampoo-para-cachorro-pelos-escuros-myhug-frente.jpg?v=638316136227700000"
+      ]
+    },
+    {
+      "id": 6,
+      "titulo": "Gaiola para hamster",
+      "descricao": "Gaiola espaçosa para hamsters",
+      "preco": 25,
+      "categoria": 6,
+      "subCategoria": 6,
+      "tipoDeAnimal": 4,
+      "avaliacaoDoProduto": 4.7,
+      "tamanho": [
+        {
+          "id": 6,
+          "produto": "Gaiola",
+          "tamanho": "Média"
+        }
+      ],
+      "peso": 1.2,
+      "estoque": true,
+      "promocao": false,
+      "fabricante": "Hamster Haven",
+      "imagem": [
+        "https://cobasi.vteximg.com.br/arquivos/ids/919170-400-400/gaiola-periquito-quatigua-azul.jpg?v=637800295038500000"
+      ]
+    },
+    {
+      "id": 7,
+      "titulo": "Brinquedo para gatos",
+      "descricao": "Brinquedo de penas para gatos",
+      "preco": 6,
+      "categoria": 7,
+      "subCategoria": 7,
+      "tipoDeAnimal": 2,
+      "avaliacaoDoProduto": 4.3,
+      "tamanho": [
+        {
+          "id": 7,
+          "produto": "Brinquedo",
+          "tamanho": "Pequeno"
+        }
+      ],
+      "peso": 0.1,
+      "estoque": true,
+      "promocao": true,
+      "fabricante": "Purrfect Playthings",
+      "imagem": [
+        "https://cobasi.vteximg.com.br/arquivos/ids/1008821-180-180/brinquedo-interativo-para-gatos-lagartixas-pet-games-Principal.jpg?v=637980900947500000"
+      ]
+    },
+    {
+      "id": 8,
+      "titulo": "Aquário de vidro",
+      "descricao": "Aquário de vidro para peixes, 20 litros",
+      "preco": 30,
+      "categoria": 8,
+      "subCategoria": 8,
+      "tipoDeAnimal": 5,
+      "avaliacaoDoProduto": 4.4,
+      "tamanho": [
+        {
+          "id": 8,
+          "produto": "Aquário",
+          "tamanho": "20 litros"
+        }
+      ],
+      "peso": 3,
+      "estoque": true,
+      "promocao": false,
+      "fabricante": "AquaWorld",
+      "imagem": [
+        "https://cobasi.vteximg.com.br/arquivos/ids/794090-180-180/23002-Aquario-Curvo-Boyu-LED-MS-320-20-L-3815241.jpg?v=637631687794430000"
+      ]
+    },
+    {
+      "id": 9,
+      "titulo": "Roupa para cachorro",
+      "descricao": "Camiseta para cães de pequeno porte",
+      "preco": 12,
+      "categoria": 9,
+      "subCategoria": 9,
+      "tipoDeAnimal": 1,
+      "avaliacaoDoProduto": 4.0,
+      "tamanho": [
+        {
+          "id": 9,
+          "produto": "Roupa",
+          "tamanho": "Pequeno"
+        }
+      ],
+      "peso": 0.2,
+      "estoque": true,
+      "promocao": true,
+      "fabricante": "Paw Couture",
+      "imagem": [
+        "https://cobasi.vteximg.com.br/arquivos/ids/942417-180-180/blusa-moletom-play-fabrica-pet-cinza-frente.jpg?v=638139019606630000"
+      ]
+    },
+    {
+      "id": 10,
+      "titulo": "Jaula para coelhos",
+      "descricao": "Jaula espaçosa para coelhos",
+      "preco": 40,
+      "categoria": 10,
+      "subCategoria": 10,
+      "tipoDeAnimal": 6,
+      "avaliacaoDoProduto": 4.8,
+      "tamanho": [
+        {
+          "id": 10,
+          "produto": "Jaula",
+          "tamanho": "Grande"
+        }
+      ],
+      "peso": 2.5,
+      "estoque": true,
+      "promocao": false,
+      "fabricante": "Bunny Haven",
+      "imagem": [
+        "https://cobasi.vteximg.com.br/arquivos/ids/1043166-180-180/Gaiola-Coelho-Braganca-Marrom.png?v=638139715109400000"
+      ]
+    }
+  ],
+  "animais": [
+    {
+      "id": 1,
+      "animal": "Cachorro",
+      "icone": "https://cms.cobasi.com.br/uploads/img_605d63a1b5_a885f5fdba.png",
+      "tipo": "doméstico",
+      "idDoAnimal": 1
+    },
+    {
+      "id": 2,
+      "animal": "Gato",
+      "icone": "https://cms.cobasi.com.br/uploads/Gatos_2x_7543b9da14_98b6e75485.png",
+      "tipo": "doméstico",
+      "idDoAnimal": 2
+    },
+    {
+      "id": 3,
+      "animal": "Pássaros",
+      "icone": "https://cms.cobasi.com.br/uploads/Passaros_2x_28c0843bf2_9e7d18cb3d.png",
+      "tipo": "silvestre",
+      "idDoAnimal": 3
+    },
+    {
+      "id": 4,
+      "animal": "Peixes",
+      "icone": "https://cms.cobasi.com.br/uploads/Peixes_2x_eb3414de4e_6f28d2e6ad.png",
+      "tipo": "doméstico",
+      "idDoAnimal": 4
+    },
+    {
+      "id": 5,
+      "animal": "Roedores",
+      "icone": "https://cms.cobasi.com.br/uploads/Outros_pet_2x_bdecd908f1_4ea7085b43.png",
+      "tipo": "doméstico",
+      "idDoAnimal": 5
+    },
+    {
+      "id": 6,
+      "animal": "Cavalo",
+      "icone": "",
+      "tipo": "silvestre",
+      "idDoAnimal": 6
+    },
+    {
+      "id": 7,
+      "animal": "Tartaruga",
+      "icone": "",
+      "tipo": "silvestre",
+      "idDoAnimal": 7
+    },
+    {
+      "id": 8,
+      "animal": "Iguana",
+      "icone": "",
+      "tipo": "doméstico",
+      "idDoAnimal": 8
+    },
+    {
+      "id": 9,
+      "animal": "Hamster",
+      "icone": "",
+      "tipo": "doméstico",
+      "idDoAnimal": 9
+    },
+    {
+      "id": 10,
+      "animal": "Serpentes",
+      "icone": "",
+      "tipo": "silvestre",
+      "idDoAnimal": 10
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "categoria": "Ração para Cachorros"
+    },
+    {
+      "id": 2,
+      "categoria": "Areia para Gatos"
+    },
+    {
+      "id": 3,
+      "categoria": "Coleiras"
+    },
+    {
+      "id": 4,
+      "categoria": "Comedouros e Bebedouros"
+    },
+    {
+      "id": 5,
+      "categoria": "Produtos de Higiene"
+    },
+    {
+      "id": 6,
+      "categoria": "Gaiolas para Pequenos Animais"
+    },
+    {
+      "id": 7,
+      "categoria": "Brinquedos para Gatos"
+    },
+    {
+      "id": 8,
+      "categoria": "Aquários"
+    },
+    {
+      "id": 9,
+      "categoria": "Roupas para Cachorros"
+    },
+    {
+      "id": 10,
+      "categoria": "Jaulas para Coelhos"
+    }
+  ],
+  "subCategorias": [
+    {
+      "id": 1,
+      "categoria": "Ração seca",
+      "descricao": "Ração com sabor costela",
+      "categoriaPai": 1
+    },
+    {
+      "id": 2,
+      "categoria": "Areia higiênica",
+      "descricao": "Areia para gatos de qualidade",
+      "categoriaPai": 2
+    },
+    {
+      "id": 3,
+      "categoria": "Coleiras Ajustáveis",
+      "descricao": "Coleiras ajustáveis para cães",
+      "categoriaPai": 3
+    },
+    {
+      "id": 4,
+      "categoria": "Comedouros de Plástico",
+      "descricao": "Comedouros de plástico para animais de estimação",
+      "categoriaPai": 4
+    },
+    {
+      "id": 5,
+      "categoria": "Produtos de Higiene para Cães",
+      "descricao": "Produtos de higiene para cães",
+      "categoriaPai": 5
+    },
+    {
+      "id": 6,
+      "categoria": "Gaiolas para Hamsters",
+      "descricao": "Gaiolas espaçosas para hamsters",
+      "categoriaPai": 6
+    },
+    {
+      "id": 7,
+      "categoria": "Brinquedos de Penas",
+      "descricao": "Brinquedos de penas para gatos",
+      "categoriaPai": 7
+    },
+    {
+      "id": 8,
+      "categoria": "Aquários de Vidro",
+      "descricao": "Aquários de vidro para peixes",
+      "categoriaPai": 8
+    },
+    {
+      "id": 9,
+      "categoria": "Roupas para Cães Pequenos",
+      "descricao": "Roupas para cães de pequeno porte",
+      "categoriaPai": 9
+    },
+    {
+      "id": 10,
+      "categoria": "Jaulas Espaçosas para Coelhos",
+      "descricao": "Jaulas espaçosas para coelhos",
+      "categoriaPai": 10
+    }
+  ],
+  "avaliacoes": [
+    {
+      "id": 1,
+      "produtoId": 1,
+      "idDoUsuario": 1,
+      "classificacao": 4,
+      "comentario": "Ótima ração para cachorros!"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Luiz Navarro",
+      "email": "luiz.navarro@itlean.com.br",
+      "senha": "senha123",
+      "idDoUsuario": 1,
+      "admin": true,
+      "carrinho": [
+        {
+          "produtoId": 1,
+          "quantidade": 2
+        }
+      ],
+      "favoritos": [
+        1
+      ],
+      "metodosPagamento": [
+        {
+          "id": 1,
+          "tipo": "Cartão de Crédito",
+          "numero": "**** **** **** 1234",
+          "nomeTitular": "Luiz Navarro",
+          "validade": "12/25",
+          "bandeira": "Mastercard"
+        }
+      ],
+      "pedidos": [
+        1
+      ]
+    }
+  ],
+  "pedidos": [
+    {
+      "id": 1,
+      "pedido": "banho",
+      "preço": 70,
+      "formaDePagamento": "Cartão de Crédito",
+      "idDoUsuario": 1,
+      "idDoAnimal": 1,
+      "adicionais": [
+        "Tratamento da pelagem",
+        "Tonalização da pelagem",
+        "Hidratação com Argan",
+        "Hidratação com Hydra"
+      ]
+    }
+  ],
+  "servicos": {
+    "banho": 70,
+    "tosa": 50,
+    "frete": 10,
+    "adicionais": {
+      "tratamentoDaPelagem": 20,
+      "tonalizaçãoDaPelagem": 40,
+      "hidrataçãoComArgan": 20,
+      "hidrataçãoComHydra": 30
+    }
+  },
+  "conteudoHome": {
+    "home": {
+      "banners": [
+        {
+          "id": 1,
+          "banner": "https://images.petz.com.br/fotos/Home_Desk_1900x390_OutletPetz_2023_07.jpg"
+        },
+        {
+          "id": 2,
+          "banner": "https://images.petz.com.br/fotos/Home_Desk_1900x390_NaturalisCao_v2-(1).jpg"
+        },
+        {
+          "id": 3,
+          "banner": "https://images.petz.com.br/fotos/Home_Desk_1900x390_Medicamento_30OFF_-2023_10.jpg"
+        },
+        {
+          "id": 4,
+          "banner": "https://images.petz.com.br/fotos/Home_Desk_1900x390_BT_Beneficios.gif"
+        },
+        {
+          "id": 5,
+          "banner": "https://images.petz.com.br/fotos/Home_Desk_1900x390_Seres_Outubro_Rosa.jpg"
+        }
+      ],
+      "promocaoDoMes": [
+        "https://cms.cobasi.com.br/uploads/292x292_outros_pets_19d70fbe6d.webp",
+        "https://cms.cobasi.com.br/uploads/20231002_CP_292x292_desk_c90c98f3c7.webp",
+        "https://cms.cobasi.com.br/uploads/20231002_gato40_292x292_34a8c7f028.webp",
+        "https://cms.cobasi.com.br/uploads/20231002_cao40_292x292_cb985c01e2.webp"
+      ],
+      "textoDestaque": "O melhor spa para o seu pet"
+    }
+  },
+  "pedidosOnline": [
+    {
+      "id": 1,
+      "idDoUsuario": 1,
+      "produtoId": 1,
+      "quantidade": 2,
+      "endereco": "Av. Luis Carlos Berrini",
+      "numero": 134,
+      "complemento": "Prédio comercial",
+      "cep": "04576060",
+      "formaDePagamento": [
+        {
+          "id": 1,
+          "tipo": "Cartão de Crédito",
+          "numero": "**** **** **** 1234",
+          "nomeTitular": "Luiz Navarro",
+          "validade": "12/25",
+          "bandeira": "Mastercard"
+        }
+      ],
+      "codigoDeEnvio": "QWEASD123",
+      "frete": 10
+    }
+  ]
+}

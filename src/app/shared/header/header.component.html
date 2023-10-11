@@ -1,0 +1,81 @@
+<nav class="navBar" [ngClass]="{'navBarLogin' : rota.url.includes('sign-in')}">
+  <section class="container">
+    <div class="logo">
+      <img src="https://cms.cobasi.com.br/uploads/logo_d35e1f3c60.svg" alt="" routerLink="/home">
+    </div>
+    <div class="pesquisa" *ngIf="!rota.url.includes('sign-in') && !rota.url.includes('sign-up')">
+      <mat-form-field>
+        <input matInput placeholder="Para seu pet, ou sua casa, procure aqui">
+        <mat-icon style="color: orange;" matSuffix>search</mat-icon>
+      </mat-form-field>
+    </div>
+    <div class="contActions" *ngIf="!rota.url.includes('sign-in') && !rota.url.includes('sign-up')">
+      <mat-icon>account_circle</mat-icon><a routerLink="/sign-in">Entre ou cadastre-se</a>
+      <div class="shop">
+        <mat-icon>favorite</mat-icon>
+        <mat-icon>shopping_cart</mat-icon>
+      </div>
+    </div>
+    <div class="contLogin" *ngIf="rota.url.includes('sign-in') || rota.url.includes('sign-up')">
+      <mat-icon>lock</mat-icon>
+      <h4>
+        Ambiente seguro
+      </h4>
+    </div>
+  </section>
+   <div class="lista" *ngIf="!rota.url.includes('/sign-in') && !rota.url.includes('sign-up')">
+    <div class="icon" *ngIf="!rota.url.includes('/sign-in') && !rota.url.includes('sign-up')">
+      <button mat-button [matMenuTriggerFor]="menuCategorias">
+        <mat-icon>menu</mat-icon>Categorias
+      </button>
+      <mat-menu #menuCategorias="matMenu">
+        <button mat-menu-item [matMenuTriggerFor]="menuDomesticos">Domésticos</button>
+        <button mat-menu-item [matMenuTriggerFor]="menuSilvestres">Silvestres</button>
+      </mat-menu>
+
+      <mat-menu #menuDomesticos="matMenu">
+        <ng-container *ngFor="let a of animais">
+          <button mat-menu-item *ngIf="a.tipo === 'doméstico'">{{ a.animal }}</button>
+        </ng-container>
+      </mat-menu>
+
+      <mat-menu #menuSilvestres="matMenu">
+        <ng-container *ngFor="let animal of animais">
+          <button mat-menu-item *ngIf="animal.tipo === 'silvestre'">{{ animal.animal }}</button>
+        </ng-container>
+      </mat-menu>
+    </div>
+      <ul>
+        <li>
+          <a target="_blank" href="https://www.cobasi.com.br/compra-programada">Compra programada</a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.cobasi.com.br/programa-amigo-cobasi">Amigo Cobasi</a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.cobasi.com.br/institucional/meu-desconto">Meu desconto</a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.cobasi.com.br/institucional/marcas-exclusivas">Marcas Exclusivas</a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.cobasi.com.br/institucional/marcas-exclusivas">Marcas Exclusivas</a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.cobasi.com.br/promocoes">Promoções</a>
+        </li>
+        <li>
+          <a href="">Serviços Pet</a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.cobasi.com.br/institucional/nossas-lojas">Nossas Lojas</a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.cobasi.com.br/institucional/espaco-pet#/">Espaço Pet</a>
+        </li>
+        <li>
+          <a target="_blank" href="https://blog.cobasi.com.br/?utm_source=site">Blog</a>
+        </li>
+      </ul>
+    </div>
+</nav>

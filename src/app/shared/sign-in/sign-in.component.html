@@ -1,0 +1,27 @@
+<section class="container">
+    <div class="userIcon">
+        <i class="fa fa-user" aria-hidden="true"></i>
+    </div>
+    <h1>
+        Acesse sua conta
+    </h1>
+    <p>
+        Informe seu e-mail e senha de cadastro
+    </p>
+    <div class="contInputs">
+        <mat-form-field class="example-full-width">
+            <mat-label>E-mail</mat-label>
+            <input matInput value="">
+          </mat-form-field>
+        <mat-form-field>
+            <mat-label>Senha</mat-label>
+            <input matInput [type]="hide ? 'password' : 'text'">
+            <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+                [attr.aria-pressed]="hide">
+                <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+            </button>
+        </mat-form-field>
+        <small routerLink="/sign-up">Cadastre-se</small>
+        <button class="btn" type="button">Entrar</button>
+    </div>
+</section>

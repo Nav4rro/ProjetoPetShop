@@ -1,0 +1,51 @@
+.container{
+    width: 100%;
+    text-align: center;
+    p{
+        font-weight: 300;
+        font-size: 1.3em;
+    }
+    .userIcon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 11%;
+        height: 130px;
+        margin: auto;
+        margin-top: 50px;
+        background-color: orange;
+        border-radius: 100%;
+        opacity: 0.5;
+        i{
+            font-size: 4.0em;
+        }
+    }
+    .userIcon:hover{
+        box-shadow: 5px 1px 15px black;
+    }
+    .contInputs{
+        width: 60%;
+        margin: auto;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        small{
+            display: flex;
+            justify-content: end;
+            color: rgb(1, 135, 142);
+            font-size: 1.1em;
+            cursor: pointer;
+        }
+        .btn{
+            background-color: rgb(0, 156, 166);
+            width: 100%;
+            padding: 10px;
+            border-radius: 0.8em;
+            border: 1px solid rgb(0, 156, 166);
+            margin-top: 20px;
+            color: snow;
+            font-size: 1.5em;
+            margin-bottom: 40px
+        }
+    }
+}

@@ -1,0 +1,71 @@
+.footer{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(242, 242, 242);
+    .container{
+        display: flex;
+        justify-content: space-between;
+        .contInfos{
+            width: 60%;
+            h2{
+                font-size: 1.7em;
+            }
+            .categs{
+                display: flex;
+                justify-content: space-between;
+                p{
+                    font-size: 1.4em;
+                    opacity: 0.5;
+                }
+            }
+            .racas {
+                display: flex;
+                justify-content: space-between;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-size: 1.4em;
+                    opacity: 0.5;
+                    margin-bottom: 15px;
+                }
+            }
+            h3{
+                opacity: 0.5;
+            }
+            p{
+                opacity: 0.5;
+            }
+        }
+        .contMoreInfos{
+            width: 30%;
+            margin-top: 40px;
+            a{
+                font-size: 1.3em;
+                color: black;
+                text-decoration: none;
+                margin-bottom: 30px;
+            }
+            .wpp{
+                display: flex;
+                gap: 3px;
+                i{
+                    font-size: 1.6em;
+                }
+            }
+            .socialMedias{
+                display: flex;
+                justify-content: space-between;
+                font-size: 2.5em;
+            }
+        }
+    }
+    .selos{
+        display: flex;
+        img{
+            width: 100px;
+            height: 100px;
+        }
+    }
+}

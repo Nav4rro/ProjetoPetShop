@@ -1,0 +1,62 @@
+<section class="container">
+    <c-carousel [interval]="4000" [animate]="false" transition="crossfade">
+        <c-carousel-inner>
+            <c-carousel-item *ngFor="let slide of slides">
+                <img [src]="slide" alt="" class="d-block w-100" loading="lazy" />
+                <!-- <img [src]="conteudoHome['home'].banner2" alt="" class="d-block w-100" loading="lazy" />
+                <img [src]="conteudoHome['home'].banner3" alt="" class="d-block w-100" loading="lazy" />
+                <img [src]="conteudoHome['home'].banner4" alt="" class="d-block w-100" loading="lazy" />
+                <img [src]="conteudoHome['home'].promocaoDoMes" alt="" class="d-block w-100" loading="lazy" /> -->
+            </c-carousel-item>
+        </c-carousel-inner>
+        <!-- <c-carousel-control [routerLink] caption="Previous" direction="prev"></c-carousel-control>
+        <c-carousel-control [routerLink] caption="Next" direction="next"></c-carousel-control> -->
+    </c-carousel>
+    <div class="promocoes">
+        <ng-container *ngFor="let pr of conteudoHome['home'].promocaoDoMes">
+            <img [src]="pr" alt="">
+        </ng-container>
+    </div>
+    <section class="contProd">
+        <div class="login">
+            <div class="box">
+
+                <h1>
+                    Boas-vindas à Cobasi
+                </h1>
+                <p>
+                    Tenha uma experiência personalizada e focada em você, seu pet e sua casa.
+                </p>
+                <button class="btn" type="button">
+                    Fazer login
+                </button>
+                <button class="btn2" type="button">
+                    Criar conta
+                </button>
+            </div>
+        </div>
+        <div class="prods">
+            <div class="title">
+                <h3>
+                    Produtos para você
+                </h3>
+            </div>
+            <div class="produtos">
+                <ng-container *ngFor="let p of produtos; let i = index">
+                    <div class="boxProd" *ngIf="i <= 2">
+                        <img [src]="p.imagem" style="width: 150px; height: 150px;" alt="p.descricao">
+                        <div class="infos">
+                            <h3>
+                                {{p.titulo}}
+                            </h3>
+                            <h1>
+                                {{formateValor(p.preco)}}
+                            </h1>
+                        </div>
+                    </div>
+                </ng-container>
+            </div>
+        </div>
+    </section>
+</section>
+<app-footer></app-footer>

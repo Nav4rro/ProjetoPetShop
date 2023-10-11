@@ -1,0 +1,104 @@
+.container c-carousel img{
+    width: 100%;
+}
+.container{
+    .promocoes{
+        width: 95%;
+        display: flex;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 70px;
+        justify-content: space-between;
+        img{
+            width: 22%;
+        }
+    }
+    .contProd{
+        display: flex;
+        width: 100%;
+        .login{
+            width: 20%;
+            height: 250px;
+            margin-left: 30px;
+            border: 1px solid gainsboro;
+            border-radius: 1.0em;
+            margin-bottom: 20px;
+        }
+        .box{
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: auto;
+            gap: 10px;
+            h1{
+                font-size: 1.5em;
+                margin-top: 15px;
+            }
+            p{
+                font-size: 1.0em;
+                opacity: 0.8;
+            }
+            .btn{
+                width: 100%;
+                margin: auto;
+                background-color: rgb(1, 135, 142);
+                border: 1px solid rgb(1, 135, 142);
+                letter-spacing: 0.96px;
+                padding: 8px;
+                text-align: center;
+                font-size: 1.2em;
+                color: snow;
+                border-radius: 0.8em;
+            }
+            .btn2{
+                background-color: rgb(255, 255, 255);
+                color: rgb(1, 135, 142);
+                letter-spacing: 0.96px;
+                font-size: 1.2em;
+                border: none;
+                padding: 8px;
+                border-radius: 0.8em;
+                width: 100%;
+                margin: auto;
+                text-align: center;
+            }
+            .btn2:hover{
+                background-color: azure;
+            }
+        }
+        .prods{
+            width: 80%;
+            margin-left: 50px;
+            display: flex;
+            flex-direction: column;
+            .title{
+               
+                h3{
+                    font-size: 1.8em
+                };
+            }
+            .produtos{
+                display: flex;
+                justify-content: space-between;
+                width: 95%;
+                margin-right: 5%;
+                .boxProd{
+                    display: flex;
+                    flex-direction: row;
+                    height: 205px;
+                    width: 30%;
+                    border: 1px solid gainsboro;
+                    border-radius: 0.8em;
+                    .infos{
+                        display: flex;
+                        flex-direction: column;
+                        h3{
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
